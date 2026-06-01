@@ -6,5 +6,7 @@ __init__.py aka package initialiser
 """
 import alchemy.transmutation
 
-
+print("===Distillation 1===")
+print("access of multi-level packages: submodule in a subpackage;",
+      "importing a subpackage")
 print(alchemy.transmutation.recipes.lead_to_gold())

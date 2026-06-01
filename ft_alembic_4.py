@@ -17,8 +17,8 @@ exposes specific names/bindings.
 import alchemy
 
 print("Using package intialiser we can access exposed names/bindings")
-print("===Using absolute import with general import using",
-      " Package initialiser __init__.py===\n\n",
+print("===we access names directly when imprting the complete package",
+      " with the help of Package initialiser __init__.py===\n\n",
       alchemy.create_air())
 
 print("===Trying to access non-exposed names===\n")

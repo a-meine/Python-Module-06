@@ -18,7 +18,8 @@ from alchemy import create_air
 
 
 print("===Using absolute import with specific import using",
-      " Package initialiser __init__.py===\n\n",
+      " Package initialiser __init__.py to speciffically import exposed",
+      " names in a submodule===\n\n",
       create_air())
 
 print("\n", f"{create_air.__name__}")

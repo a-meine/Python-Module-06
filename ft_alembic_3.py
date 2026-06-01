@@ -18,6 +18,15 @@ the path of the module will  the path starting from root
 from alchemy import elements
 
 
-print(" ===Using absolute import + genral import on a module in a",
-      "package=== \n\n",
+print(" ===Using absolute import + genral import to import a complete",
+      "submodule=== \n\n",
       elements.create_air())
+
+
+"""OR"""
+
+# from alchemy.elements import create_air
+
+# print(" ===Using absolute import + genral import on a module in a",
+#   "package=== \n\n",
+#   create_air())

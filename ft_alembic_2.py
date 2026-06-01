@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Here we are doing: general import + absolute on a module in a package
+Here we are doing: general import + absolute on a submodule in a subpackage
 this means we have to: say import ... and
 the path of the module will  the path starting from root
 

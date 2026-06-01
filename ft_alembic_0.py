@@ -3,10 +3,10 @@
 """
 Here we are doing: general (aka non-specific) + absolute
 on a module (not a package) this means we have to: say import (without from)
-and the path of the module will  the path starting from root
+and the path of the module will be the path starting from root
 
     Absolute: means starting from root (aka sys.path[0])
-    genral: means we have everything in the module but
+    general: means we have everything in the module but
         we need name it every time we need something
         eg: elements.create_water()
 
@@ -27,9 +27,9 @@ and the path of the module will  the path starting from root
 
 """
 import elements
+# to see sys.path[0]
 # import sys
+# print(sys.path[0])
 
 print(" ===Using absolute import + general import on a module=== \n\n",
       elements.create_fire())
-
-# print(sys.path[0])
